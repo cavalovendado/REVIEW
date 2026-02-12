@@ -55,9 +55,9 @@
 
 7 - git add = Adiciona os arquivos para serem preparados para o commit.
 
-8 - git config global user.name "cavalovendado" = Define o nome do autor dos commits.
+8 - git config --global user.name "cavalovendado" = Define o nome do autor dos commits.
 
-9 - git config global user.email "pedrinho.henrique.0208@gmail.com" = Define o e-mail que ficará vinculado aos commits.
+9 - git config --global user.email "pedrinho.henrique.0208@gmail.com" = Define o e-mail que ficará vinculado aos commits.
 
 10 - git commit -m "comentário" = Salva uma versão do projeto.
 
