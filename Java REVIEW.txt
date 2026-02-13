@@ -1,0 +1,128 @@
+Java REVIEW 
+Todo programa Java precisa de uma classe. dentro dessa classe precisa de um método chamado main, que é o ponto de partida. Em Java, todo comando deve terminar com ; e é um código case-sensitive ou seja, diferencia maiúsculas de minúsculas.
+
+
+// Todo código Java vive dentro de uma classe
+
+public class OláMundo{
+
+// O método main é onde o programa começa
+public static void main(String[] args){
+ // System.out.println imprime o texto na tela
+ System.out.println("Olá, Java!");
+ }
+
+}
+
+
+public class
+Define a classe pública que contém seu codigo
+
+main method
+Ponto de partida obrigátorio do programa
+
+System.out.println
+Comando para exibir mensagem tela
+
+
+Java é tipado =
+Deve-se declarar o tipo de dado que uma variável vai guardar antes de usá-la. Isso ajuda a prevenir erros e tornar seu código mais seguro.
+
+
+COMANDOS JAVA
+
+int
+Números inteiros sem casas decimais ex.: 10, -5, 0, 1000
+
+double
+Números com casas decimais ex.: 10.5, 3.14, -7.89
+
+boolean
+Valores lógicos verdadeiro ou falso ex.: true or false
+
+char
+Um único caractere ex.: 'A', 'z', '5', '@'
+
+String
+Sequência de caracteres(texto) ex.: "Maicon", "Olá, mundo!"
+
+Trabalhando com variaveis
+
+ public class Variaveis{
+	public static void main(String[]args) {
+	 String nome = "Maicon";
+	 int idade = 25;
+	 double altura = 1.75;
+	 boolean gostaDeProgramar = true;
+
+	 System.out.println("Nome: " + nome);
+	 System.out.println("Idade: " + idade):
+      }
+}
+
+
+Operações Basicas em Java
+
+Aritimeticos
+• + soma
+• - subtração
+• * multiplicação
+• / divisão
+• % resto de divisão
+
+Comparação
+• == igual
+• != diferente
+• > maior que
+• < menor que
+• >= maior ou igual
+• <= menor ou igual
+
+Lógicos
+• && E (and)
+• || OU (or)
+• ! NÃO (not)
+
+ESTRUTURAS de CONTROLE: Tomando Decisões
+Para que o programa tome decisões baseadas em condições, usamos as estruturas if (se) e else (senão). Elas permitem que seue código execute diferentes ações dependendo das circunstâncias.
+
+
+EXEMPLO PRÁTICO: Verificando maioridade
+
+public class Decisao{
+ public statoc void main(String[]args) {
+  int idade = 17;
+
+  if (idade >= 18){
+   System.out.println("Acesso permitindo.");
+  } else {
+   System.out.println("Acesso negado.");
+   System.out.println("Menor de idade.");
+  }
+ }
+}
+
+O programa avalia a condição idade >= 18. Se for verdadeira, executa o primeiro bloco; caso contrário, executa o bloco else.
+
+
+Estruturas de Repetição: Loops
+
+Por que usar loops?
+Quando você precisa repetir uma ação várias vezes, loops tornam seu codigo mais eficiente e limpo. Em vez de escrever o mesmo comando repretidamente, você define uma estrutura de repetição.
+
+O loop for
+O loop mais comum em java. Ele tem três partes:
+Inicialização: onde começa a contagem
+2. Condição: até quando repetir
+3. Incremento: como avançar a cada vez
+
+Exemplo: Contando de 1 até 5
+
+public class Loop{
+ public static void main(String[]args){
+ // (inicio; condição de parada; incremento)
+  for(int i = 1; i <= 5; i++){
+   System.out.println("Contagem:" + i);
+  }
+ }
+}
